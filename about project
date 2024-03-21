@@ -1,0 +1,11 @@
+      ecommerce-website-front-end
+Use HTML to create the structure of your web pages,
+including headers, footers, navigation bars, product listings, product detail pages, shopping cart, and checkout pages. Apply CSS for styling and layout purposes, Implement
+responsive design using media queries to ensure your
+website is mobile-friendly and adapts to different screen
+sizes.
+Implement interactivity and dynamic functionalities using
+JavaScript. Use JavaScript to enable features like filtering products
+based on categories, prices, or ratings without refreshing the
+entire page. Create functions to add items to the cart, update quantities, calculate totals, and remove items using JavaScript's DOM
+manipulation.
