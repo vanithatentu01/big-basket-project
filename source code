@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Big Basket</title>
+<style type="text/css">
+
+  #a table tr td {
+	padding: 10px;
+	background-color:whitesmoke;
+
+	
+	}
+
+	
+ ul li{
+display:inline-block;
+margin:20px;
+font-size:20px;
+color:black;
+background-color: white;
+}
+ ul li ul li{
+display:none;
+}
+ul li:hover ul li{
+display:block;
+background-color: black;
+color: white;
+}
+ ul li ul{
+position:absolute;
+}	
+#b table tr td{
+	
+	background-color:whitesmoke;
+
+}
+#c table tr td{
+	padding:15px;
+}
+
+#d table tr td{
+	padding:8px;
+}
+table tr td{
+	padding:10px;
+}
+</style>
+</head>
+
+<body style="margin-left: 10%;" >
+	<script type="text/javascript">
+count=0;
+function add(v)
+{
+	var a=v;
+	total=parseInt(a);
+	count=count+1
+	document.getElementById('a').innerHTML=count
+
+}
+
+function sub(v){
+	//var a=v;
+	//var total = document.getElementById('a').value=total;
+	//total=parseInt(total)-parseInt(a);
+	var a=v;
+	total=parseInt(a);
+	count=count-1
+	document.getElementById('a').innerHTML=count
+
+	if (total<0) {
+		total=o;
+	}
+	document.getElementById('a').value=total;
+	if (count<0) {
+		count=0;
+	}
+	document.getElementById(a).innerHTML=count;
+
+}
+</script>             
+    <span id="a" style="margin-left:900px;background-color:red;color:white;margin-top: 130px;">0</span>   
+<table>
+<tr>
+<td>
+	<img src="https://gumlet.assettype.com/afaqs/2021-11/c9b6e415-726d-4f0b-a787-c3eff949e722/bb_Daily_with_TATA_Logo.jpg?auto=format%2Ccompress" width="120px" height="50px" style="margin-inline: -20px;"></td>
+<td><input type="search" placeholder="search"  size="90px" style="margin-left: 25px ;margin-top: -5px;" ></td>
+<td><img src="https://th.bing.com/th/id/R.0bb4f56356c5cfecebb57341faa6d397?rik=pNfxXLGE2H8Y%2fA&riu=http%3a%2f%2ficon-park.com%2fimagefiles%2fshopping_cart_red.png&ehk=Feq6TRtd90xQg2AKNILh5rdVSjAevZDiTgnojqNJtNQ%3d&risl=&pid=ImgRaw&r=0" width="50px" height="50px" style="margin-left:75px;">
+
+</td></tr></table>
+
+
+<ul type="none" >
+<li>Shope by Category
+	<ul type="none">
+		<li> fruits&vegitables<br>
+		foods,oil&masala<br>
+	bakery<br>
+Beverages</li>
+	</ul>
+
+</li>
+<li>Exotic Fruits & Veggies</li>
+<li>Tea</li>
+<li>Ghee</li>
+<li>Nandini</li>
+<li>FreshVegitable</li>
+
+</ul>
+
+
+<!--<img src="https://www.bigbasket.com/media/uploads/banner_images/hp_fom_m_staples_visakhapatnam_460_231123.jpg" width="100%">-->
+
+<div id="d" >
+<table>
+<tr>
+<td><img src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_01.png?tr=w-1920,q=80" width="170px" height="70px" ></td>
+<td><img src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_02.png?tr=w-1920,q=80" width="170px" height="70px" ></td>
+<td><img src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_03.png?tr=w-1920,q=80" width="170px" height="70px"></td>
+<td><img src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_04.png?tr=w-1920,q=80" width="170px" height="70px"></td>
+<td><img src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_05.png?tr=w-1920,q=80" width="170px" height="70px"></td>
+<td><img src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_06.png?tr=w-1920,q=80" width="170px" height="70px"></td>
+</tr>
+</table>
+</div>
+
+<div id="a">
+<table>
+<tr>
+<th><h2>My Smart Basket</h2></th>
+</tr>
+<tr>
+<td>
+<img src="https://www.bigbasket.com/media/uploads/p/m/40317730_5-adidas-india-cricket-odi-fan-jersey-ix7167-xl.jpg?tr=w-1920,q=80" width="250px" height="200px"><h4>adidas</h4>
+<pre>Adidas Official India Cricket ODIFanPolo
+Colour Blue Jersey/Tshirt - XL</pre>
+<p>₹999</p>
+<input type="button" value="add" style="color: red;" onclick="add(999)">
+<input type="button" value="-" onclick="sub(999)">
+</td>
+<td> <img src="https://www.bigbasket.com/media/uploads/p/m/10000067_23-fresho-capsicum-green.jpg?tr=w-1920,q=80" width="250px" height="200px">
+<h4>Fr…
